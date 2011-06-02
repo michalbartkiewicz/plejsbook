@@ -1,14 +1,18 @@
 class PagesController < ApplicationController
   def home
-    @title = "Strona glowna"
+    @title = "Home"
   end
 
   def contact
-    @title = "Kontakt"
+    @title = "Contact"
   end
   
   def about
-    @title = "O nas"
+    @title = "About us"
+  end  
+  
+  def help
+    @title = "Help"
   end  
 
 end
